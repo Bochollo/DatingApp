@@ -24,10 +24,10 @@ export class AppComponent implements OnInit{
     this.users = response;
 
     }, error => {
-      console.log('ERRROR');
+      console.log('ERROR:');
       console.log(AstMemoryEfficientTransformer);
     })
-  
+
 
   }
 
