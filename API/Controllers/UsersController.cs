@@ -10,6 +10,7 @@ namespace API.Controllers
     public class UsersController : ControllerBase
     {
 
+
         private readonly DataContext _context;
 
         public UsersController(DataContext context)
